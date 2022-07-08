@@ -2,6 +2,7 @@
 int num = Convert.ToInt32(Console.ReadLine());
 int i = 0;
 int k = 2;
+Console.WriteLine("Чётные числа от 0 до " + num + ":");
 while(i < num)
 {
     if(num % 2 == 0)
